@@ -26,8 +26,8 @@ A command-line DNS reconnaissance tool for enumerating subdomains, querying DNS 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/dns-recon-tool.git
-cd dns-recon-tool
+git clone https://github.com/code-saksham-hash/recon_cli.git
+cd recon_cli
 pip install -r requirements.txt
 ```
 
@@ -49,7 +49,13 @@ python recon.py -d example.com
 
 ## Docker
 
-Build the image:
+Pull directly from Docker Hub:
+
+```bash
+docker pull saksham409/recon-tool
+```
+
+Or build the image locally:
 
 ```bash
 docker build -t dns-recon-tool .
